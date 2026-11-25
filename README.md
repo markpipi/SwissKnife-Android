@@ -6,7 +6,7 @@
 
 ## Установка
 
-1. Скачайте `SwissKey-ColorOS17-1.5-debug.apk` из [релиза](../../releases/tag/v1.0.0) и установите его.
+1. Скачайте `SwissKey-ColorOS17-1.5-debug.apk` из [релиза](../../releases/tag/v1.5.0) и установите его.
 2. В LSPosed включите модуль Swiss Knife для `com.android.systemui` («Системный интерфейс»).
 3. Откройте Swiss Knife, импортируйте `.passthm` или оставьте встроенную тему MaterialYou, затем нажмите «Применить тему PIN».
 4. Проверьте экран блокировки. Для возврата стандартного вида выключите тему в приложении.
@@ -15,7 +15,7 @@
 
 ## Исходники и сборка
 
-Архив `SwissKnife-Android-1.5-source.zip` находится в [релизе](../../releases/tag/v1.0.0). В нём Android-проект приложения и модуля LSPosed. Для сборки нужны JDK 21, Android SDK Platform 36 и Build Tools 36.0.0:
+Архив `SwissKnife-Android-1.5-source.zip` находится в [релизе](../../releases/tag/v1.5.0). В нём Android-проект приложения и модуля LSPosed. Для сборки нужны JDK 21, Android SDK Platform 36 и Build Tools 36.0.0:
 
 ```sh
 ./gradlew :app:assembleDebug
